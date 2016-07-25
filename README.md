@@ -1,4 +1,4 @@
-# php-decliner
+# Decliner
 Simple function made to decline numerals.
 
 ### Simple syntax:
