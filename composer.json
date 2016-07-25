@@ -1,5 +1,5 @@
 {
-  "name": "pldin601/php-decliner",
+  "name": "rg-libs/php-decliner",
   "description": "Simple function made to decline numerals",
   "minimum-stability": "dev",
   "license": "MIT",
