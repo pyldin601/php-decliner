@@ -1,4 +1,4 @@
-# Decliner
+# php-decliner
 [![Build Status](https://travis-ci.org/pldin601/php-decliner.svg?branch=master)](https://travis-ci.org/rg-libs/Decliner)
 [![Code Climate](https://codeclimate.com/github/pldin601/php-decliner/badges/gpa.svg)](https://codeclimate.com/github/rg-libs/Decliner)
 [![Test Coverage](https://codeclimate.com/github/pldin601/php-decliner/badges/coverage.svg)](https://codeclimate.com/github/rg-libs/Decliner/coverage)
