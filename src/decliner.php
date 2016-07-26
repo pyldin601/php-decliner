@@ -11,8 +11,11 @@ namespace RG\Libs\Decliner;
  */
 function decline($number, array $titles)
 {
-    $cases = array (2, 0, 1, 1, 1, 2);
-    return $number . " " . $titles[($number % 100 > 4 && $number % 100 < 20) ? 2 : $cases[min($number % 10, 5)]];
+    $cases = [2, 0, 1, 1, 1, 2];
+    $modOf100 = $number % 100;
+    $modOfTen = $number % 10;
+    
+    return $number . " " . $titles[($modOf100 > 4 && $modOf100 < 20) ? 2 : $cases[min($modOfTen, 5)]];
 }
 
 /**
